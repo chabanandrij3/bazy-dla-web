@@ -1,0 +1,2 @@
+web-database-corpus-v2/03-content-readability/github__docs/ORIGINAL_SNAPSHOT.zip filter=lfs diff=lfs merge=lfs -text
+web-database-corpus-v2/03-content-readability/carbon-design-system__carbon-website/ORIGINAL_SNAPSHOT.zip filter=lfs diff=lfs merge=lfs -text
