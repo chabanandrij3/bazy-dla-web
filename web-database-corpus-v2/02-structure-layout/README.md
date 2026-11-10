@@ -1,37 +1,37 @@
-# Структура й макет
+# Structure and layout
 
-## Повні локальні файли
+## Complete source files
 
-- [uswds__uswds-site](uswds__uswds-site/) — файли на місці
-- [uswds__uswds](uswds__uswds/) — файли на місці
-- [twbs__bootstrap](twbs__bootstrap/) — файли на місці
+- [uswds__uswds-site](uswds__uswds-site/) — pinned source files
+- [uswds__uswds](uswds__uswds/) — pinned source files
+- [twbs__bootstrap](twbs__bootstrap/) — pinned source files
 
-У папках вище збережено структуру вихідних репозиторіїв: документацію, код, дані, приклади, тести та ліцензії. Цей стислий огляд допомагає знайти потрібну частину; для точних значень і API відкривайте локальні файли джерел.
+The directories above preserve each source repository's structure, including documentation, code, data, examples, tests, and licenses. This short guide helps you locate the relevant material; use the source files for exact values and APIs.
 
-## Практичний огляд
+## Practical guide
 
 
-**Джерела:** [U.S. Web Design System](https://github.com/uswds/uswds-site) і [Bootstrap](https://github.com/twbs/bootstrap). Офіційні матеріали: [USWDS — layout grid](https://designsystem.digital.gov/utilities/layout-grid/), [Bootstrap — grid](https://getbootstrap.com/docs/5.3/layout/grid/), [Bootstrap — containers](https://getbootstrap.com/docs/5.3/layout/containers/).
+**Sources:** [U.S. Web Design System](https://github.com/uswds/uswds-site) and [Bootstrap](https://github.com/twbs/bootstrap). Official material: [USWDS — layout grid](https://designsystem.digital.gov/utilities/layout-grid/), [Bootstrap — grid](https://getbootstrap.com/docs/5.3/layout/grid/), [Bootstrap — containers](https://getbootstrap.com/docs/5.3/layout/containers/).
 
-## Зведені правила
+## Consolidated rules
 
-1. Починайте з порядку інформації: головний вміст, пов'язані дії, допоміжні матеріали. Сітка лише реалізує цю ієрархію.
-2. Головний вміст повинен залишатися зрозумілим без бічних колонок. На малому екрані передбачте порядок блоків, а не просто механічне перенесення колонок.
-3. Однакові типи сторінок використовують узгоджені контейнери, відступи й вирівнювання. Ширину рядка тексту обмежуйте заради читабельності.
-4. Візуальний порядок і порядок елементів у HTML мають збігатися там, де користувач рухається клавіатурою або слухає екранний читач.
+1. Start with information order: main content, related actions, then supporting material. The grid only implements that hierarchy.
+2. Main content should remain understandable without side columns. On small screens, define the block order instead of merely wrapping columns.
+3. Similar page types should use consistent containers, spacing, and alignment. Limit text line length for readability.
+4. Visual order and HTML order should match wherever users navigate by keyboard or use a screen reader.
 
-## Що додає Bootstrap
+## What Bootstrap adds
 
-- **Точна модель реалізації:** 12 колонок, контейнери → рядки → колонки, шість стандартних діапазонів ширини. Це робить варіанти макета явними в коді.
-- **Адаптивні класи:** ширину колонки можна змінювати за breakpoint; вузький екран зазвичай отримує стек блоків, ширший — кілька колонок. [Приклади](https://getbootstrap.com/docs/5.3/layout/grid/).
-- **Налаштовувані відступи:** горизонтальні й вертикальні проміжки регулюються окремо, а вихідні Sass-змінні дозволяють змінити сітку проєкту.
-- **Альтернативний CSS Grid:** [окрема реалізація](https://getbootstrap.com/docs/5.3/layout/css-grid/) корисна, коли потрібні двовимірні розкладки. Її не потрібно підключати одночасно зі стандартною сіткою без причини.
+- **A precise implementation model:** 12 columns, containers → rows → columns, and six standard breakpoints. This makes layout variants explicit in code.
+- **Responsive classes:** column width can change by breakpoint; narrow screens usually stack blocks, while wider screens show multiple columns. See the [examples](https://getbootstrap.com/docs/5.3/layout/grid/).
+- **Configurable gutters:** horizontal and vertical spacing can be controlled independently, and Sass variables let a project change the grid.
+- **Alternative CSS Grid:** the [separate implementation](https://getbootstrap.com/docs/5.3/layout/css-grid/) is useful for two-dimensional layouts. Do not combine it with the standard grid without a reason.
 
-## Перевірка сторінки
+## Page checklist
 
-- Чи видно головну дію і заголовок без пошуку серед другорядних блоків?
-- Чи зберігається логічний порядок на телефоні й при збільшенні масштабу?
-- Чи не потребує текст горизонтального прокручування?
-- Чи використовують сторінки одного типу однакові правила ширини й відступів?
+- Are the main action and heading visible without searching through secondary blocks?
+- Does the logical order survive on a phone and at increased zoom?
+- Can the text be read without horizontal scrolling?
+- Do pages of the same type use the same width and spacing rules?
 
-**Поруч:** [навігація](../01-navigation/README.md), [контент](../03-content-readability/README.md), [естетика](../07-aesthetics/README.md).
+**Related:** [navigation](../01-navigation/README.md), [content](../03-content-readability/README.md), [visual design](../07-aesthetics/README.md).

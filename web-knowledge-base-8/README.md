@@ -1,33 +1,33 @@
-# База знань для створення сайтів
+# Website-building knowledge base
 
-**Версія:** 2026-11-09. **Мова:** українська. **Формат:** вісім тематичних баз і чотири спеціалізовані доповнення.
+**Version:** 2026-11-09. **Language:** English. **Format:** eight topic databases and four specialized supplements.
 
-Це навігаційна й практична база знань. Кожна з восьми тем зіставляє **два офіційні джерела**: те, що вони пояснюють спільно, зведено в одне правило; відмінні підходи та дані другого джерела записані окремо. Числові токени різних дизайн-систем не змішуються.
+This is a navigational and practical knowledge base. Each of the eight topics compares **two official sources**: shared guidance is consolidated into one rule, while distinct approaches and data from the second source are recorded separately. Numeric tokens from different design systems are never mixed.
 
-| № | Тема | Джерело 1 | Джерело 2 | Відкрити |
+| No. | Topic | Source 1 | Source 2 | Open |
 |---|---|---|---|---|
-| 1 | Навігація | GOV.UK Design System | GitHub Primer | [База 1](01-navigation.md) |
-| 2 | Структура й макет | U.S. Web Design System | Bootstrap | [База 2](02-layout.md) |
-| 3 | Контент і читабельність | IBM Carbon | GitHub Docs | [База 3](03-content.md) |
-| 4 | Форми | Adobe Spectrum Design Data | Ant Design | [База 4](04-forms.md) |
-| 5 | Функціональність | MDN Web Docs | Google Lighthouse | [База 5](05-functionality.md) |
-| 6 | Доступність | W3C WCAG 2.2 | Deque axe-core | [База 6](06-accessibility.md) |
-| 7 | Естетика | Material Web | GitHub Primer Primitives | [База 7](07-visual-design.md) |
-| 8 | Безпека | OWASP ASVS / Cheat Sheets | MDN HTTP Observatory | [База 8](08-security.md) |
+| 1 | Navigation | GOV.UK Design System | GitHub Primer | [Database 1](01-navigation.md) |
+| 2 | Structure and layout | U.S. Web Design System | Bootstrap | [Database 2](02-layout.md) |
+| 3 | Content and readability | IBM Carbon | GitHub Docs | [Database 3](03-content.md) |
+| 4 | Forms | Adobe Spectrum Design Data | Ant Design | [Database 4](04-forms.md) |
+| 5 | Functionality | MDN Web Docs | Google Lighthouse | [Database 5](05-functionality.md) |
+| 6 | Accessibility | W3C WCAG 2.2 | Deque axe-core | [Database 6](06-accessibility.md) |
+| 7 | Visual design | Material Web | GitHub Primer Primitives | [Database 7](07-visual-design.md) |
+| 8 | Security | OWASP ASVS / Cheat Sheets | MDN HTTP Observatory | [Database 8](08-security.md) |
 
-**Доповнення:** [NN/g, Baymard, Adobe React Aria, Web Platform Tests](09-supplements.md).
+**Supplements:** [NN/g, Baymard, Adobe React Aria, and Web Platform Tests](09-supplements.md).
 
-## Як користуватися
+## How to use it
 
-1. Відкрийте тему, над якою працюєте.
-2. Перегляньте зведені правила і блок «Що додає друге джерело».
-3. Застосуйте контрольні запитання до конкретної сторінки.
-4. Для точних API, токенів і критеріїв відкрийте посилання на першоджерело: ці дані змінюються.
+1. Open the topic you are working on.
+2. Review the consolidated rules and the “What the second source adds” section.
+3. Apply the checklist to the specific page.
+4. Open the original source for exact APIs, tokens, and criteria because these details change.
 
-## Що вже є локально
+## Local source material
 
-Поруч з цією папкою розташовані оригінальна [документація Material Web](../material-web-docs/intro.md) та [вибірка даних Adobe Spectrum 2](../material-web-docs/spectrum-supplement/README.md). Вони залишаються окремими джерелами; ця база дає тематичний покажчик і синтез, без дублювання їхніх файлів.
+The original [Material Web documentation](../material-web-docs/intro.md) and an [Adobe Spectrum 2 data selection](../material-web-docs/spectrum-supplement/README.md) sit beside this directory. They remain separate sources; this knowledge base provides a topic index and synthesis without duplicating their files.
 
-## Межі й походження
+## Scope and provenance
 
-Це **відібраний конспект перевірених офіційних матеріалів**, а не повні копії 16 репозиторіїв. Великі репозиторії містять код збірки, тести, історію версій та інші файли поза цими темами. Не слід вважати, що кожен файл кожного репозиторію був прочитаний або що кожна рекомендація застосовна до будь-якого сайту. Джерела й точні матеріали наведені в кожній темі; звіряйте їх перед впровадженням. Безпеку та доступність сайту підтверджують перевіркою реалізації, а не наявністю цих нотаток.
+This is a **curated summary of verified official material**, not complete copies of 16 repositories. Large repositories include build code, tests, version history, and other files outside these topics. Do not assume that every file in every repository was manually read or that every recommendation applies to every site. Sources and exact material are listed in each topic; verify them before implementation. Website security and accessibility must be confirmed by testing the implementation, not by the presence of these notes.

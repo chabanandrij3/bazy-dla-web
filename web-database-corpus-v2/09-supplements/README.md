@@ -1,59 +1,50 @@
-# Чотири доповнення
+# Four supplements
 
-## 1. Nielsen Norman Group — евристики зручності
+## Local source files
 
-Публічний матеріал: https://www.nngroup.com/articles/ten-usability-heuristics/ . Це авторська стаття, а не відкритий файловий репозиторій. Практичний стислий огляд з попередньої версії бази наведено нижче; повного набору файлів NN/g для завантаження немає.
+- [adobe__react-spectrum](adobe__react-spectrum/) — pinned source files
+- [web-platform-tests__wpt](web-platform-tests__wpt/) — pinned source files
 
-## 2. Baymard Institute — UX-дослідження checkout
+NN/g and Baymard are referenced as public research sources; no paid or closed material is reproduced here.
 
-Публічний опис: https://baymard.com/research/checkout-usability . Повний масив дослідження доступний у Baymard Premium і не наданий локально. Тут збережено лише власний короткий огляд публічної інформації.
+# Four specialized supplements
 
-## 3. Adobe React Spectrum / React Aria
+These sources help validate and deepen the eight main topics. They do not create an alternative design-token set or duplicate the main rules.
 
-Повні відкриті файли: [adobe__react-spectrum](adobe__react-spectrum/).
+## 1. Nielsen Norman Group: usability heuristics
 
-## 4. Web Platform Tests
+**Source:** [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/) by Jakob Nielsen; editorially reviewed in 2024.
 
-Повний відкритий тестовий корпус: [web-platform-tests__wpt](web-platform-tests__wpt/). Це тести поведінки вебплатформи, а не набір готових дизайнерських правил.
+**Adds:** an expert-review method covering system status, familiar language, user control and error recovery, consistency, error prevention, reduced memory load, restrained design, and recovery from errors.
 
-## Практичний огляд доповнень
+**Use:** walk through primary scenarios as a new user and record the action, expectation, actual state, and violated heuristic for every problem. It most strongly supplements [navigation](../01-navigation/README.md), [content](../03-content-readability/README.md), [functionality](../05-functionality/README.md), and [visual design](../07-aesthetics/README.md).
 
-Ці джерела допомагають перевіряти й поглиблювати вісім основних тем. Вони не створюють альтернативного набору дизайн-токенів і не дублюють основні правила.
+**Access:** this is a public article, not an open database for bulk copying. This collection stores only an original short summary and a link.
 
-## 1. Nielsen Norman Group: евристики юзабіліті
+## 2. Baymard Institute: ecommerce research
 
-**Джерело:** [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/), автор Якоб Нільсен; сторінка переглянута редакцією у 2024 році.
+**Source:** [Cart & Checkout Usability Research](https://baymard.com/research/checkout-usability) and the [research methodology](https://baymard.com/research/methodology).
 
-**Що додає:** метод експертного перегляду — стан системи, зрозумілі користувачу слова, контроль і вихід із помилки, послідовність, запобігання помилкам, зменшення потреби пам'ятати, стриманість дизайну та відновлення після помилок.
+**Adds:** examples and research findings for cart and checkout journeys, including field labels, checkout steps, hints, error messages, and data validation.
 
-**Застосування:** пройдіть основні сценарії як новий користувач і для кожної проблеми запишіть: дію, очікування, фактичний стан та порушену евристику. Найбільше доповнює [навігацію](../01-navigation/README.md), [контент](../03-content-readability/README.md), [функціональність](../05-functionality/README.md) і [естетику](../07-aesthetics/README.md).
+**Use:** apply this when a site includes a catalog, cart, payment, or ordering. It supplements [forms](../04-forms/README.md) and [navigation](../01-navigation/README.md); some findings are unnecessary for a simple information site.
 
-**Доступ:** це публічна стаття, а не відкрита база для масового копіювання. У цій збірці збережено лише власний короткий виклад і посилання.
-
-## 2. Baymard Institute: дослідження електронної комерції
-
-**Джерело:** [Cart & Checkout Usability Research](https://baymard.com/research/checkout-usability) і [методика досліджень](https://baymard.com/research/methodology).
-
-**Що додає:** приклади й результати досліджень користувацьких сценаріїв кошика та оформлення покупки, зокрема позначення полів, кроки оформлення, підказки, повідомлення про помилки й перевірка даних.
-
-**Застосування:** використовуйте, якщо сайт має каталог, кошик, оплату чи замовлення. Доповнює [форми](../04-forms/README.md) і [навігацію](../01-navigation/README.md); для звичайного інформаційного сайту частина висновків не потрібна.
-
-**Доступ:** на сторінці є відкриті статті та приклади; повна дослідницька база Baymard Premium платна. Сюди не перенесено закриті матеріали.
+**Access:** the page includes open articles and examples; the full Baymard Premium research database is paid. No closed material is reproduced here.
 
 ## 3. Adobe React Aria
 
-**Джерело:** [репозиторій adobe/react-spectrum](https://github.com/adobe/react-spectrum) і [посібник із форм](https://react-spectrum.adobe.com/forms).
+**Source:** the [adobe/react-spectrum repository](https://github.com/adobe/react-spectrum) and [forms guide](https://react-spectrum.adobe.com/forms).
 
-**Що додає:** поведінку й доступність інтерактивних компонентів на рівні реалізації: керування фокусом, клавіатурою, підписами й описами полів, валідацією та надсиланням. Це доповнює структуровані дизайн-дані Spectrum, які описують компоненти й токени.
+**Adds:** implementation-level behavior and accessibility for interactive components: focus and keyboard management, field labels and descriptions, validation, and submission. This complements the structured Spectrum design data describing components and tokens.
 
-**Застосування:** коли створюєте власні React-компоненти або перевіряєте поведінку [форм](../04-forms/README.md), [навігації](../01-navigation/README.md) та [доступності](../06-accessibility/README.md). Не слід вважати React Aria готовою темою оформлення.
+**Use:** when building custom React components or checking [forms](../04-forms/README.md), [navigation](../01-navigation/README.md), and [accessibility](../06-accessibility/README.md). React Aria should not be treated as a ready-made visual theme.
 
 ## 4. Web Platform Tests
 
-**Джерело:** [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt), [публічні результати](https://wpt.fyi/).
+**Source:** [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) and [public results](https://wpt.fyi/).
 
-**Що додає:** масштабну базу перевірок відповідності вебстандартам у браузерах. Вона показує, чи конкретна можливість HTML, CSS або Web API працює однаково в різних реалізаціях.
+**Adds:** a large browser conformance test suite for web standards, showing whether an HTML, CSS, or Web API feature behaves consistently across implementations.
 
-**Застосування:** перевіряйте нестандартні або нові вебможливості перед використанням у критичному сценарії. Це доповнює [функціональність](../05-functionality/README.md), але не тестує логіку вашого конкретного сайту.
+**Use:** verify nonstandard or new web features before using them in a critical flow. This supplements [functionality](../05-functionality/README.md) but does not test the business logic of your specific site.
 
-**Обсяг:** повний відкритий тестовий корпус збережено у цій збірці; шукайте тести за потрібною вебможливістю.
+**Scope:** the repository contains far more tests than a normal website-design database needs. Search for the relevant web feature instead of copying the entire corpus into another collection.

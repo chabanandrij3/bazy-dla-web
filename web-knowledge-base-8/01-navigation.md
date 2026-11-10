@@ -1,26 +1,26 @@
-# 1. Навігація
+# 1. Navigation
 
-**Джерела:** [GOV.UK Design System](https://github.com/alphagov/govuk-design-system) і [GitHub Primer](https://github.com/primer/react). Офіційні матеріали: [GOV.UK — Navigate a service](https://design-system.service.gov.uk/patterns/navigate-a-service/), [Primer — каталог компонентів](https://primer.style/product/components/), [Primer — NavList](https://primer.style/product/components/nav-list/).
+**Sources:** [GOV.UK Design System](https://github.com/alphagov/govuk-design-system) and [GitHub Primer](https://github.com/primer/react). Official material: [GOV.UK — Navigate a service](https://design-system.service.gov.uk/patterns/navigate-a-service/), [Primer — component catalog](https://primer.style/product/components/), [Primer — NavList](https://primer.style/product/components/nav-list/).
 
-## Зведені правила
+## Consolidated rules
 
-1. Навігація відображає завдання користувача й структуру вмісту; назви пунктів мають передбачати ціль сторінки.
-2. Поточне місце повинно бути зрозумілим із заголовка, активного пункту або «хлібних крихт». Назви, порядок і поведінка повторюваної навігації залишаються послідовними.
-3. Посилання переводить на іншу адресу; кнопка виконує дію. Невірний вибір ускладнює користування клавіатурою та допоміжними технологіями.
-4. Глибина меню має відповідати реальній ієрархії. Якщо користувачі не знаходять потрібне, перевірте назви та групування на завданнях, а не додавайте ще рівень вкладеності.
+1. Navigation should reflect user tasks and content structure; item labels should predict the destination.
+2. The current location should be clear from the heading, active item, or breadcrumbs. Repeated navigation should keep consistent labels, order, and behavior.
+3. A link moves to another address; a button performs an action. Using the wrong element makes keyboard and assistive-technology use harder.
+4. Menu depth should match the real hierarchy. If users cannot find content, test task-based labels and grouping before adding another level.
 
-## Що додає Primer
+## What Primer adds
 
-- **Вибір конкретного компонента.** [NavList](https://primer.style/product/components/nav-list/) — вертикальна навігація; [UnderlineNav](https://primer.style/product/components/underline-nav/) — горизонтальна навігація посиланнями; [Breadcrumbs](https://primer.style/product/components/) — шлях в ієрархії; [Pagination](https://primer.style/product/components/) — переміщення сторінками набору результатів.
-- **Межа вкладеності.** У правилах NavList допускається до чотирьох рівнів; потреба в більшій глибині є сигналом переглянути структуру. Це конкретне обмеження Primer, а не універсальний стандарт.
-- **Навігація в макеті.** [SplitPageLayout](https://primer.style/product/components/split-page-layout/) показує, як поєднати постійну бічну панель і головний вміст, не гублячи контекст вибраного пункту.
-- **Доступний стан.** Приклад Primer використовує `aria-current="page"` для активного посилання. Не встановлюйте його одночасно на кількох пунктах одного маршруту.
+- **Specific component choices.** [NavList](https://primer.style/product/components/nav-list/) is vertical navigation; [UnderlineNav](https://primer.style/product/components/underline-nav/) is horizontal link navigation; [Breadcrumbs](https://primer.style/product/components/) show a hierarchy path; [Pagination](https://primer.style/product/components/) moves through result pages.
+- **A nesting limit.** NavList guidance allows up to four levels; needing more is a signal to review the structure. This is a Primer-specific constraint, not a universal standard.
+- **Navigation in a layout.** [SplitPageLayout](https://primer.style/product/components/split-page-layout/) shows how to combine a persistent sidebar with main content without losing the selected item's context.
+- **Accessible state.** Primer examples use `aria-current="page"` for the active link. Do not set it on multiple items within one route.
 
-## Перевірка сторінки
+## Page checklist
 
-- Чи може новий відвідувач назвати своє поточне місце й наступний крок?
-- Чи можна пройти меню клавіатурою й побачити фокус?
-- Чи відповідає назва посилання заголовку сторінки призначення?
-- Чи зберігаються важливі маршрути на вузькому екрані?
+- Can a new visitor identify their current location and next step?
+- Can the menu be traversed with a keyboard while keeping focus visible?
+- Does each link label match the destination page heading?
+- Do important routes remain available on narrow screens?
 
-**Поруч:** [структура сторінки](02-layout.md), [доступність](06-accessibility.md).
+**Related:** [page structure](02-layout.md), [accessibility](06-accessibility.md).

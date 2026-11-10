@@ -1,30 +1,30 @@
-# 7. Естетика й візуальна система
+# 7. Visual design system
 
-**Джерела:** [Material Web](https://github.com/material-components/material-web) і [GitHub Primer Primitives](https://github.com/primer/primitives). Офіційні матеріали: [Material Web docs](https://github.com/material-components/material-web/tree/main/docs), [Primer — foundations](https://primer.style/product/getting-started/foundations/), [Primer — дизайн-токени](https://github.com/primer/primitives#design-token-data).
+**Sources:** [Material Web](https://github.com/material-components/material-web) and [GitHub Primer Primitives](https://github.com/primer/primitives). Official material: [Material Web docs](https://github.com/material-components/material-web/tree/main/docs), [Primer — foundations](https://primer.style/product/getting-started/foundations/), [Primer — design tokens](https://github.com/primer/primitives#design-token-data).
 
-## Зведені правила
+## Consolidated rules
 
-1. Візуальна ієрархія має показувати, що головне, що допоміжне і які елементи інтерактивні. Вона створюється типографікою, відступами, кольором, формою та станами.
-2. Повторювані значення оформлюйте як токени, щоб кольори, розміри й відступи залишалися узгодженими.
-3. Колір не може бути єдиним способом повідомити про стан. Контраст, видимий фокус та масштабування перевіряйте за [критеріями доступності](06-accessibility.md).
-4. Стиль бренду має підтримувати контент і дії, а не відволікати від них.
+1. Visual hierarchy should reveal what is primary, supporting, and interactive. Typography, spacing, color, shape, and states create that hierarchy.
+2. Store repeated values as tokens so colors, sizes, and spacing remain consistent.
+3. Color cannot be the only way to communicate state. Test contrast, visible focus, and zoom against the [accessibility criteria](06-accessibility.md).
+4. Brand style should support content and actions instead of distracting from them.
 
-## Що додає Primer Primitives
+## What Primer Primitives adds
 
-- **Сирі структуровані токени** в `src/tokens/`: колір, типографіка, відступи, розміри, рух та інші основи. Їх можна аналізувати або компілювати в CSS-змінні.
-- **Кілька режимів:** світлий, темний і варіанти підвищеного контрасту. Це конкретна модель темізації, яку можна порівняти з Material Web.
-- **Семантичні ролі:** замість прямого копіювання кольору конкретного елемента зв'язуйте токен із роллю, наприклад тлом, текстом чи межею.
-- **Контроль руху:** токени анімації й рекомендації враховують системну перевагу зменшеного руху. [Опис токенів](https://github.com/primer/primitives).
+- **Raw structured tokens** in `src/tokens/`: color, typography, spacing, size, motion, and other foundations that can be analyzed or compiled into CSS variables.
+- **Multiple modes:** light, dark, and high-contrast variants—a concrete theming model that can be compared with Material Web.
+- **Semantic roles:** instead of copying a component's literal color, connect the token to a role such as background, text, or border.
+- **Motion control:** animation tokens and guidance account for the system reduced-motion preference. See the [token description](https://github.com/primer/primitives).
 
-## Правило поєднання двох систем
+## Rule for combining the systems
 
-**Не змішуйте значення Material і Primer в одному наборі токенів.** Виберіть базову систему для сайту, а з другої переносьте лише обґрунтовані принципи або нові категорії, визначивши власні значення. Це висновок із різного призначення їхніх дизайн-токенів.
+**Do not mix Material and Primer values in one token set.** Choose one base system for the site and transfer only justified principles or new categories from the other, defining your own values. This follows from the different purposes of their design tokens.
 
-## Перевірка сторінки
+## Page checklist
 
-- Чи легко відрізнити заголовок, основну дію, допоміжну дію й неактивний стан?
-- Чи є однакові відступи, шрифтові ролі й кольори на схожих сторінках?
-- Чи працює темна тема та підвищений контраст, якщо вони заявлені?
-- Чи не передає анімація єдину важливу інформацію?
+- Is it easy to distinguish the heading, primary action, secondary action, and disabled state?
+- Do similar pages use consistent spacing, typography roles, and colors?
+- Do dark mode and increased contrast work when advertised?
+- Is animation ever the only carrier of important information?
 
-**Локальна першооснова:** [Material Web](../material-web-docs/intro.md).
+**Local primary source:** [Material Web](../material-web-docs/intro.md).

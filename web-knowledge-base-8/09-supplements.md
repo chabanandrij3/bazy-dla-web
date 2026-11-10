@@ -1,41 +1,41 @@
-# Чотири спеціалізовані доповнення
+# Four specialized supplements
 
-Ці джерела допомагають перевіряти й поглиблювати вісім основних тем. Вони не створюють альтернативного набору дизайн-токенів і не дублюють основні правила.
+These sources help validate and deepen the eight main topics. They do not create an alternative design-token set or duplicate the main rules.
 
-## 1. Nielsen Norman Group: евристики юзабіліті
+## 1. Nielsen Norman Group: usability heuristics
 
-**Джерело:** [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/), автор Якоб Нільсен; сторінка переглянута редакцією у 2024 році.
+**Source:** [10 Usability Heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/) by Jakob Nielsen; editorially reviewed in 2024.
 
-**Що додає:** метод експертного перегляду — стан системи, зрозумілі користувачу слова, контроль і вихід із помилки, послідовність, запобігання помилкам, зменшення потреби пам'ятати, стриманість дизайну та відновлення після помилок.
+**Adds:** an expert-review method covering system status, familiar language, user control and error recovery, consistency, error prevention, reduced memory load, restrained design, and recovery from errors.
 
-**Застосування:** пройдіть основні сценарії як новий користувач і для кожної проблеми запишіть: дію, очікування, фактичний стан та порушену евристику. Найбільше доповнює [навігацію](01-navigation.md), [контент](03-content.md), [функціональність](05-functionality.md) і [естетику](07-visual-design.md).
+**Use:** walk through primary scenarios as a new user and record the action, expectation, actual state, and violated heuristic for every problem. It most strongly supplements [navigation](01-navigation.md), [content](03-content.md), [functionality](05-functionality.md), and [visual design](07-visual-design.md).
 
-**Доступ:** це публічна стаття, а не відкрита база для масового копіювання. У цій збірці збережено лише власний короткий виклад і посилання.
+**Access:** this is a public article, not an open database for bulk copying. This collection stores only an original short summary and a link.
 
-## 2. Baymard Institute: дослідження електронної комерції
+## 2. Baymard Institute: ecommerce research
 
-**Джерело:** [Cart & Checkout Usability Research](https://baymard.com/research/checkout-usability) і [методика досліджень](https://baymard.com/research/methodology).
+**Source:** [Cart & Checkout Usability Research](https://baymard.com/research/checkout-usability) and the [research methodology](https://baymard.com/research/methodology).
 
-**Що додає:** приклади й результати досліджень користувацьких сценаріїв кошика та оформлення покупки, зокрема позначення полів, кроки оформлення, підказки, повідомлення про помилки й перевірка даних.
+**Adds:** examples and research findings for cart and checkout journeys, including field labels, checkout steps, hints, error messages, and data validation.
 
-**Застосування:** використовуйте, якщо сайт має каталог, кошик, оплату чи замовлення. Доповнює [форми](04-forms.md) і [навігацію](01-navigation.md); для звичайного інформаційного сайту частина висновків не потрібна.
+**Use:** apply this when a site includes a catalog, cart, payment, or ordering. It supplements [forms](04-forms.md) and [navigation](01-navigation.md); some findings are unnecessary for a simple information site.
 
-**Доступ:** на сторінці є відкриті статті та приклади; повна дослідницька база Baymard Premium платна. Сюди не перенесено закриті матеріали.
+**Access:** the page includes open articles and examples; the full Baymard Premium research database is paid. No closed material is reproduced here.
 
 ## 3. Adobe React Aria
 
-**Джерело:** [репозиторій adobe/react-spectrum](https://github.com/adobe/react-spectrum) і [посібник із форм](https://react-spectrum.adobe.com/forms).
+**Source:** the [adobe/react-spectrum repository](https://github.com/adobe/react-spectrum) and [forms guide](https://react-spectrum.adobe.com/forms).
 
-**Що додає:** поведінку й доступність інтерактивних компонентів на рівні реалізації: керування фокусом, клавіатурою, підписами й описами полів, валідацією та надсиланням. Це доповнює структуровані дизайн-дані Spectrum, які описують компоненти й токени.
+**Adds:** implementation-level behavior and accessibility for interactive components: focus and keyboard management, field labels and descriptions, validation, and submission. This complements the structured Spectrum design data describing components and tokens.
 
-**Застосування:** коли створюєте власні React-компоненти або перевіряєте поведінку [форм](04-forms.md), [навігації](01-navigation.md) та [доступності](06-accessibility.md). Не слід вважати React Aria готовою темою оформлення.
+**Use:** when building custom React components or checking [forms](04-forms.md), [navigation](01-navigation.md), and [accessibility](06-accessibility.md). React Aria should not be treated as a ready-made visual theme.
 
 ## 4. Web Platform Tests
 
-**Джерело:** [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt), [публічні результати](https://wpt.fyi/).
+**Source:** [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) and [public results](https://wpt.fyi/).
 
-**Що додає:** масштабну базу перевірок відповідності вебстандартам у браузерах. Вона показує, чи конкретна можливість HTML, CSS або Web API працює однаково в різних реалізаціях.
+**Adds:** a large browser conformance test suite for web standards, showing whether an HTML, CSS, or Web API feature behaves consistently across implementations.
 
-**Застосування:** перевіряйте нестандартні або нові вебможливості перед використанням у критичному сценарії. Це доповнює [функціональність](05-functionality.md), але не тестує логіку вашого конкретного сайту.
+**Use:** verify nonstandard or new web features before using them in a critical flow. This supplements [functionality](05-functionality.md) but does not test the business logic of your specific site.
 
-**Обсяг:** репозиторій містить значно більше тестів, ніж потрібно для звичайної бази дизайну сайту; використовуйте пошук за потрібною вебможливістю, а не копіюйте весь корпус у цю збірку.
+**Scope:** the repository contains far more tests than a normal website-design database needs. Search for the relevant web feature instead of copying the entire corpus into another collection.

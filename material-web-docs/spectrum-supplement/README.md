@@ -1,13 +1,14 @@
-# Доповнення: Adobe Spectrum Design Data
+# Supplement: Adobe Spectrum Design Data
 
-Вибірка канонічних даних Spectrum 2 як окреме доповнення до документації Material Web. Дані двох дизайн систем не змішуються.
+A selection of canonical Spectrum 2 data kept as a separate supplement to the Material Web documentation. Values from the two design systems are not mixed.
 
-Джерело: https://github.com/adobe/spectrum-design-data/tree/main/packages/design-data
-Ревізія: 6ee52bc9f0e03eca4bbb063a175171b6f4e886a1
+Source: https://github.com/adobe/spectrum-design-data/tree/main/packages/design-data
 
-Збережено **333 JSON-файлів**, з них **2523 токенів** у 8 канонічних файлах.
+Revision: `6ee52bc9f0e03eca4bbb063a175171b6f4e886a1`
 
-| Категорія | Файлів |
+This supplement preserves **333 JSON files**, including **2,523 tokens** across eight canonical files.
+
+| Category | Files |
 | --- | ---: |
 | components | 97 |
 | fields | 33 |
@@ -19,6 +20,6 @@
 | icons | 2 |
 | visuals | 7 |
 
-Каталог `data/` зберігає відносні шляхи з `packages/design-data/`. `MANIFEST.json` містить SHA-256 кожного файлу. [Порівняння з Material Web](COMPARISON.md).
+The `data/` directory preserves relative paths from `packages/design-data/`. `MANIFEST.json` contains the SHA-256 checksum of every file. See the [Material Web comparison](COMPARISON.md).
 
-Не включено код інструментів, тести, історію змін, згенеровані копії токенів і дублікати документації. Оригінальна ліцензія та повідомлення про авторські права додані поруч.
+Tooling code, tests, change history, generated token copies, and duplicate documentation are excluded. The original license and copyright notices are included beside the data.

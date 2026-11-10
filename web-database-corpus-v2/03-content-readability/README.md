@@ -1,37 +1,37 @@
-# Контент і читабельність
+# Content and readability
 
-## Повні локальні файли
+## Complete source files
 
-- [carbon-design-system__carbon-website](carbon-design-system__carbon-website/) — файли на місці
-- [carbon-design-system__carbon](carbon-design-system__carbon/) — файли на місці
-- [github__docs](github__docs/) — файли на місці
+- [carbon-design-system__carbon-website](carbon-design-system__carbon-website/) — pinned source files
+- [carbon-design-system__carbon](carbon-design-system__carbon/) — pinned source files
+- [github__docs](github__docs/) — pinned source files
 
-У папках вище збережено структуру вихідних репозиторіїв: документацію, код, дані, приклади, тести та ліцензії. Цей стислий огляд допомагає знайти потрібну частину; для точних значень і API відкривайте локальні файли джерел.
+The directories above preserve each source repository's structure, including documentation, code, data, examples, tests, and licenses. This short guide helps you locate the relevant material; use the source files for exact values and APIs.
 
-## Практичний огляд
+## Practical guide
 
 
-**Джерела:** [IBM Carbon Website](https://github.com/carbon-design-system/carbon-website) і [GitHub Docs](https://github.com/github/docs). Офіційні матеріали: [Carbon — writing style](https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/guidelines/content/writing-style.mdx), [GitHub Docs — best practices](https://docs.github.com/en/contributing/writing-for-github-docs/best-practices-for-github-docs/), [GitHub Docs — content model](https://docs.github.com/en/contributing/style-guide-and-content-model).
+**Sources:** [IBM Carbon Website](https://github.com/carbon-design-system/carbon-website) and [GitHub Docs](https://github.com/github/docs). Official material: [Carbon — writing style](https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/guidelines/content/writing-style.mdx), [GitHub Docs — best practices](https://docs.github.com/en/contributing/writing-for-github-docs/best-practices-for-github-docs/), [GitHub Docs — content model](https://docs.github.com/en/contributing/style-guide-and-content-model).
 
-## Зведені правила
+## Consolidated rules
 
-1. Пишіть для конкретної задачі читача, знайомими словами. Пояснюйте дію та результат, скорочуйте речення й абзаци.
-2. Заголовок описує наступний розділ; вступ швидко відповідає, чому сторінка корисна. Найважливіша інформація з'являється рано.
-3. Списки, таблиці й візуальні блоки застосовуйте за структурою даних, не як прикрасу. Підписи кнопок і полів мають називати дію або дані.
-4. Єдині терміни й послідовний стиль написання зменшують потребу заново тлумачити інтерфейс.
+1. Write for a specific reader task, using familiar words. Explain the action and result, and keep sentences and paragraphs short.
+2. A heading should describe the section that follows; the introduction should quickly explain why the page is useful. Put the most important information early.
+3. Use lists, tables, and visual blocks according to the data structure, not as decoration. Button and field labels should name the action or data.
+4. Consistent terminology and writing style reduce the need to reinterpret the interface.
 
-## Що додає GitHub Docs
+## What GitHub Docs adds
 
-- **Модель типів матеріалів.** GitHub розрізняє понятійне пояснення, довідку, інструкцію, швидкий старт і усунення несправностей. Це допомагає не змішувати довге пояснення з коротким покроковим завданням.
-- **Порядок інформації.** У [моделі контенту](https://docs.github.com/en/contributing/style-guide-and-content-model/about-the-content-model) загальні поняття передують вузьким процедурам, а способи виправлення помилок знаходяться після основного шляху.
-- **Пошук усередині сторінки.** Для довгих матеріалів використовуйте зміст і значущі підзаголовки; одна думка на речення або абзац полегшує сканування.
-- **Повторне використання без дублювання.** Спільну інструкцію варто мати в одному місці та посилатися на неї, якщо повне повторення породжує розбіжності.
+- **Content types.** GitHub distinguishes conceptual explanations, reference, how-to guides, quick starts, and troubleshooting. This prevents mixing long explanations with short procedures.
+- **Information order.** In the [content model](https://docs.github.com/en/contributing/style-guide-and-content-model/about-the-content-model), general concepts precede narrow procedures, and troubleshooting follows the main path.
+- **In-page discovery.** Long pages should use a table of contents and meaningful subheadings; one idea per sentence or paragraph improves scanning.
+- **Reuse without duplication.** Keep shared instructions in one place and link to them when full repetition would create inconsistencies.
 
-## Перевірка сторінки
+## Page checklist
 
-- Чи зрозумілий зміст за заголовками без читання кожного абзацу?
-- Чи написані тексти кнопок конкретними дієсловами?
-- Чи пояснює повідомлення про помилку, що сталося і що робити далі?
-- Чи однаковий термін означає те саме в меню, формі й довідці?
+- Is the content understandable from its headings without reading every paragraph?
+- Do button labels use specific verbs?
+- Does an error message explain what happened and what to do next?
+- Does one term mean the same thing in menus, forms, and help content?
 
-**Поруч:** [макет](../02-structure-layout/README.md), [форми](../04-forms/README.md).
+**Related:** [layout](../02-structure-layout/README.md), [forms](../04-forms/README.md).

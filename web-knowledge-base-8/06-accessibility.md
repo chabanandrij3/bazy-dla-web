@@ -1,26 +1,26 @@
-# 6. Доступність
+# 6. Accessibility
 
-**Джерела:** [W3C WCAG 2.2](https://github.com/w3c/wcag) і [Deque axe-core](https://github.com/dequelabs/axe-core). Офіційні матеріали: [опублікований WCAG 2.2](https://www.w3.org/TR/WCAG22/), [правила axe-core](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md).
+**Sources:** [W3C WCAG 2.2](https://github.com/w3c/wcag) and [Deque axe-core](https://github.com/dequelabs/axe-core). Official material: [published WCAG 2.2](https://www.w3.org/TR/WCAG22/), [axe-core rules](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md).
 
-## Зведені правила
+## Consolidated rules
 
-1. WCAG 2.2 дає перевірні критерії для сприйняття, керування, зрозумілості й сумісності вмісту. Вони стосуються всього сайту, а не лише окремих компонентів.
-2. Забезпечте логічні заголовки, текстові альтернативи, достатній контраст, видимий фокус, роботу клавіатурою, зрозумілі підписи та повідомлення про помилки.
-3. Перевіряйте повні сценарії — пошук, заповнення форми, помилку й підтвердження — з допоміжними технологіями та збільшенням масштабу.
-4. Доступність нового компонента не гарантує доступності сторінки, якщо його неправильно вбудувати або надати невдалий текст.
+1. WCAG 2.2 provides testable criteria for perceivable, operable, understandable, and robust content. They apply to the whole site, not only individual components.
+2. Provide logical headings, text alternatives, sufficient contrast, visible focus, keyboard operation, understandable labels, and useful error messages.
+3. Test complete scenarios—search, form entry, errors, and confirmation—with assistive technologies and increased zoom.
+4. An accessible component does not guarantee an accessible page if it is integrated incorrectly or given poor text.
 
-## Що додає axe-core
+## What axe-core adds
 
-- **Машинозчитувані перевірки** HTML/ARIA та перелік правил, прив'язаних до критеріїв WCAG 2.0–2.2 і практик доступності.
-- **Знаходження конкретних елементів:** результат указує, де виникла помилка, які перевірки пройдено, а де потрібна ручна оцінка.
-- **Повторюваність:** перевірку можна включити до тестів компонентів та запускати після змін інтерфейсу.
-- **Межа покриття:** автори axe-core прямо зазначають, що автоматично виявляється лише частина проблем WCAG. Ручна перевірка лишається необхідною. [Опис проєкту](https://github.com/dequelabs/axe-core).
+- **Machine-readable checks** for HTML/ARIA and rules mapped to WCAG 2.0–2.2 criteria and accessibility practices.
+- **Specific element discovery:** results identify where a failure occurs, which checks passed, and where manual review is required.
+- **Repeatability:** checks can be included in component tests and rerun after interface changes.
+- **Coverage limits:** axe-core's authors explicitly state that automation detects only part of WCAG issues. Manual testing remains necessary. See the [project description](https://github.com/dequelabs/axe-core).
 
-## Мінімальний цикл перевірки
+## Minimum testing cycle
 
-1. Визначте цільовий рівень WCAG 2.2 і перегляньте критерії, що стосуються сторінки.
-2. Запустіть axe-core на кожному важливому стані сторінки, зокрема після відкриття меню або помилки форми.
-3. Перевірте клавіатуру, екранний читач, масштабування й зміст текстів вручну.
-4. Зафіксуйте дефекти з посиланням на критерій, сторінку та спосіб відтворення.
+1. Choose a target WCAG 2.2 level and review criteria relevant to the page.
+2. Run axe-core on every important page state, including open menus and form errors.
+3. Manually test keyboard operation, a screen reader, zoom, and text meaning.
+4. Record each defect with the criterion, page, and reproduction steps.
 
-**Поруч:** [навігація](01-navigation.md), [контент](03-content.md), [форми](04-forms.md).
+**Related:** [navigation](01-navigation.md), [content](03-content.md), [forms](04-forms.md).
