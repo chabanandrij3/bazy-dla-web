@@ -1,0 +1,24 @@
+Topic	Source	Files	Bytes	Revision	Snapshot
+01-navigation	alphagov__govuk-design-system	791	4192061	c58de6f7fbda921746fcf1c8d9e58ddff761e7ce	git checkout
+01-navigation	alphagov__govuk-frontend	1054	6160663	d2e55edd375a08714c7e5f81f0b48cb3f5eb0371	git checkout
+01-navigation	primer__design	331	39283316	87f799f202ec95df15c99f473c9c0c803da8e6b3	git checkout
+01-navigation	primer__react	9436	132210196	35ff4972b1d62810df69f606c6785bc7f123d5d5	git checkout
+02-structure-layout	twbs__bootstrap	994	27289064	9062790fdb2379593a2973416dc5a3bfb203e4e3	git checkout
+02-structure-layout	uswds__uswds	1645	9667133	029d6d792241b3b4107a630590a27ee951a152b5	git checkout
+02-structure-layout	uswds__uswds-site	1530	219450150	af13d80f071c3d897bee422f51954d9d7d156474	git checkout
+03-content-readability	carbon-design-system__carbon	10928	53257966	f5bdc21a0933baca91875e618f07141ff708cbe7	git checkout
+03-content-readability	carbon-design-system__carbon-website	2905	284351488		GitHub ZIP snapshot; original ZIP preserved
+03-content-readability	github__docs	13260	793322782		GitHub ZIP snapshot; original ZIP preserved
+04-forms	adobe__spectrum-design-data	3225	32601556	6ee52bc9f0e03eca4bbb063a175171b6f4e886a1	git checkout
+04-forms	ant-design__ant-design	5085	65343110	86ac5b5563bbf260aab369098a0250ab673db688	git checkout
+05-functionality	GoogleChrome__lighthouse	1513	220778094	ea58ed1fd36cb8378a4080dbcb41cdc0e5a581b2	git checkout
+05-functionality	mdn__content	16432	115875988	3735b38a5c1f09f777790aa6618478499e801f94	git checkout
+06-accessibility	dequelabs__axe-core	2069	47677850	c50bf8e8933eba8cdb7a0d8e744a6c0ec691cdd6	git checkout
+06-accessibility	w3c__wcag	1432	27178507	d1e063920a1574d7fb67823d9343e12bb6cf6829	git checkout
+07-aesthetics	material-components__material-web	1580	18686106	d872455c4be56022da2095349b30ef46e0b55bc3	git checkout
+07-aesthetics	primer__primitives	12026	59689113	47736486bf67b2a14ba1ada61fa0f57af29bb875	git checkout
+08-security	mdn__mdn-http-observatory	156	1528076	8ba48f19dde3f0cf102e80b7d9559e4395b6fa24	git checkout
+08-security	OWASP__ASVS	488	166806923	62981c68fd06206e8afa161653943935de9a5047	git checkout
+08-security	OWASP__CheatSheetSeries	394	24132771	a13983001cb3ed79af5c52b9558db39a1cae8b0a	git checkout
+09-supplements	adobe__react-spectrum	10174	212571574	82959b6a9ac4ea717228636b99fc8fd24736a7f4	git checkout
+09-supplements	web-platform-tests__wpt	167922	511681032	264db3f3c045a3a7675bce91717c2068559147f4	git checkout

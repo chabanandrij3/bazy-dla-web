@@ -1,0 +1,63 @@
+[submodule "web-database-corpus-v2/01-navigation/alphagov__govuk-design-system"]
+	path = web-database-corpus-v2/01-navigation/alphagov__govuk-design-system
+	url = https://github.com/alphagov/govuk-design-system.git
+[submodule "web-database-corpus-v2/01-navigation/alphagov__govuk-frontend"]
+	path = web-database-corpus-v2/01-navigation/alphagov__govuk-frontend
+	url = https://github.com/alphagov/govuk-frontend.git
+[submodule "web-database-corpus-v2/01-navigation/primer__design"]
+	path = web-database-corpus-v2/01-navigation/primer__design
+	url = https://github.com/primer/design.git
+[submodule "web-database-corpus-v2/01-navigation/primer__react"]
+	path = web-database-corpus-v2/01-navigation/primer__react
+	url = https://github.com/primer/react.git
+[submodule "web-database-corpus-v2/02-structure-layout/twbs__bootstrap"]
+	path = web-database-corpus-v2/02-structure-layout/twbs__bootstrap
+	url = https://github.com/twbs/bootstrap.git
+[submodule "web-database-corpus-v2/02-structure-layout/uswds__uswds"]
+	path = web-database-corpus-v2/02-structure-layout/uswds__uswds
+	url = https://github.com/uswds/uswds.git
+[submodule "web-database-corpus-v2/02-structure-layout/uswds__uswds-site"]
+	path = web-database-corpus-v2/02-structure-layout/uswds__uswds-site
+	url = https://github.com/uswds/uswds-site.git
+[submodule "web-database-corpus-v2/03-content-readability/carbon-design-system__carbon"]
+	path = web-database-corpus-v2/03-content-readability/carbon-design-system__carbon
+	url = https://github.com/carbon-design-system/carbon.git
+[submodule "web-database-corpus-v2/04-forms/adobe__spectrum-design-data"]
+	path = web-database-corpus-v2/04-forms/adobe__spectrum-design-data
+	url = https://github.com/adobe/spectrum-design-data.git
+[submodule "web-database-corpus-v2/04-forms/ant-design__ant-design"]
+	path = web-database-corpus-v2/04-forms/ant-design__ant-design
+	url = https://github.com/ant-design/ant-design.git
+[submodule "web-database-corpus-v2/05-functionality/GoogleChrome__lighthouse"]
+	path = web-database-corpus-v2/05-functionality/GoogleChrome__lighthouse
+	url = https://github.com/GoogleChrome/lighthouse.git
+[submodule "web-database-corpus-v2/05-functionality/mdn__content"]
+	path = web-database-corpus-v2/05-functionality/mdn__content
+	url = https://github.com/mdn/content.git
+[submodule "web-database-corpus-v2/06-accessibility/dequelabs__axe-core"]
+	path = web-database-corpus-v2/06-accessibility/dequelabs__axe-core
+	url = https://github.com/dequelabs/axe-core.git
+[submodule "web-database-corpus-v2/06-accessibility/w3c__wcag"]
+	path = web-database-corpus-v2/06-accessibility/w3c__wcag
+	url = https://github.com/w3c/wcag.git
+[submodule "web-database-corpus-v2/07-aesthetics/material-components__material-web"]
+	path = web-database-corpus-v2/07-aesthetics/material-components__material-web
+	url = https://github.com/material-components/material-web.git
+[submodule "web-database-corpus-v2/07-aesthetics/primer__primitives"]
+	path = web-database-corpus-v2/07-aesthetics/primer__primitives
+	url = https://github.com/primer/primitives.git
+[submodule "web-database-corpus-v2/08-security/mdn__mdn-http-observatory"]
+	path = web-database-corpus-v2/08-security/mdn__mdn-http-observatory
+	url = https://github.com/mdn/mdn-http-observatory.git
+[submodule "web-database-corpus-v2/08-security/OWASP__ASVS"]
+	path = web-database-corpus-v2/08-security/OWASP__ASVS
+	url = https://github.com/OWASP/ASVS.git
+[submodule "web-database-corpus-v2/08-security/OWASP__CheatSheetSeries"]
+	path = web-database-corpus-v2/08-security/OWASP__CheatSheetSeries
+	url = https://github.com/OWASP/CheatSheetSeries.git
+[submodule "web-database-corpus-v2/09-supplements/adobe__react-spectrum"]
+	path = web-database-corpus-v2/09-supplements/adobe__react-spectrum
+	url = https://github.com/adobe/react-spectrum.git
+[submodule "web-database-corpus-v2/09-supplements/web-platform-tests__wpt"]
+	path = web-database-corpus-v2/09-supplements/web-platform-tests__wpt
+	url = https://github.com/web-platform-tests/wpt.git

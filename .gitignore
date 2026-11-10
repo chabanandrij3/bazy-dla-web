@@ -1,0 +1,5 @@
+# The full source repositories are represented by pinned Git submodules.
+web-database-corpus-v2/*/*/
+
+# Temporary local packaging attempts are not published.
+web-database-corpus-v2/archives/
